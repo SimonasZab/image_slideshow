@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+	  "target": "es2020",
+	  "module": "es2020",
+	  "declaration": true,
+	  "outDir": "./lib",
+	  "allowJs": true,
+	  "strict": true,
+	  "strictPropertyInitialization": false,
+	  "jsx": "preserve",
+	  "skipLibCheck": true,
+	},
+	"include": [
+		"src"
+	],
+	"exclude": [
+	  "node_modules",
+	  "**/__tests__/*"
+	],
+	"types": [ "node" ],
+	"typeRoots": [ "../node_modules/@types" ]
+}

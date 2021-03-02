@@ -1,1 +1,1 @@
-# image_slideshow
+# Image slideshow

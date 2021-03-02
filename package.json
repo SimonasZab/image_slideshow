@@ -1,0 +1,25 @@
+{
+  "name": "image_slideshow",
+  "version": "1.0.0",
+  "description": "Responsive image slideshow compatible with any framework",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "simas_z",
+  "license": "MIT",
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "ts_common_utils": "^1.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.2"
+  },
+  "keywords": [
+	  "ts",
+	  "typescript"
+  ]
+}
