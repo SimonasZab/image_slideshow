@@ -95,8 +95,10 @@ export default class SlideShow{
 			return
 		}
 		
-		this.canvas.width = this.canvas.parentElement.clientWidth
-		this.canvas.height = this.canvas.parentElement.clientWidth * this.heightToWidthAspectRatio
+		var bounds = this.canvas.parentElement.getBoundingClientRect()
+
+		this.canvas.width = bounds.width
+		this.canvas.height = bounds.width * this.heightToWidthAspectRatio
 		this.canvas.style.width = this.canvas.parentElement.clientWidth + 'px'
 		this.canvas.style.height = (this.canvas.parentElement.clientWidth * this.heightToWidthAspectRatio) + 'px'
 		

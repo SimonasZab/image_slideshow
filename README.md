@@ -16,7 +16,7 @@ Responsive canvas image slideshow compatible with any JS framework.
 ```
 
 ```js
-const ImageSlideshow = require('image_slideshow')
+import ImageSlideshow from 'image_slideshow'
 
 let image_slideshow = new ImageSlideshow()
 image_slideshow.init(document.getElementById("slideshow_canvas"), 10/16, 10)//image slideshow canvas, height to width ratio of canvas, slide change interval in seconds
